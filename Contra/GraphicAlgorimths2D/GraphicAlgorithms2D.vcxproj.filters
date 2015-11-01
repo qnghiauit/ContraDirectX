@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Equationes">
+      <UniqueIdentifier>{c5254adc-bf1d-434a-90f5-75b497e69710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Equationes\Circle">
+      <UniqueIdentifier>{534792f8-733b-4983-89d6-41e8d8a2ec19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Equationes\Line And Parabol">
+      <UniqueIdentifier>{9b49780e-6d57-491c-8d97-843e5373878e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Equation.h">
+      <Filter>Equationes</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleEquation.h">
+      <Filter>Equationes\Circle</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadraticEquation.h">
+      <Filter>Equationes\Line And Parabol</Filter>
+    </ClInclude>
+    <ClInclude Include="MathDefaultConstant.h" />
+    <ClInclude Include="Math.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CircleEquation.cpp">
+      <Filter>Equationes\Circle</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadraticEquation.cpp">
+      <Filter>Equationes\Line And Parabol</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

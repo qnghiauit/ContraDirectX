@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{ae253065-8de3-4d1a-81b4-063aa0a80da9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{b6a5d741-f5dc-48cd-8a39-0e7ff9ee932f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{60c110f4-53bc-43a7-b2f9-e9313d3a0b0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Text">
+      <UniqueIdentifier>{a1bea557-26bb-4233-82ad-efea3f0ea9a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\Images">
+      <UniqueIdentifier>{a01dae6a-79cb-4ba4-93ef-190e35bf42a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{af1f6d10-d22e-4913-b77f-f4de0b0d8c51}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DSutil.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Graphics\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>Graphics\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="MergedTexture.cpp">
+      <Filter>Graphics\Images</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DefaultMethods.h" />
+    <ClInclude Include="DefaultStructure.h" />
+    <ClInclude Include="DSutil.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultConstant.h" />
+    <ClInclude Include="Windows.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Graphics\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>Graphics\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="MergedTexture.h">
+      <Filter>Graphics\Images</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

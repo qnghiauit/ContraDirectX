@@ -1,0 +1,231 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{22E59B92-6A52-49DE-B233-02038684BEBC}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Contra</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Visual Leak Detector\include;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Visual Leak Detector\lib;C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>$(SolutionDir)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>
+      </AdditionalUsingDirectories>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib; d3dx9.lib; User32.lib;</AdditionalDependencies>
+    </Link>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedPretties.cpp" />
+    <ClCompile Include="AutoAimingObject.cpp" />
+    <ClCompile Include="BlueBoom.cpp" />
+    <ClCompile Include="BlueBoomGenerator.cpp" />
+    <ClCompile Include="BoomingCanon.cpp" />
+    <ClCompile Include="Boss.cpp" />
+    <ClCompile Include="Bullet.cpp" />
+    <ClCompile Include="BulletBag.cpp" />
+    <ClCompile Include="BulletBasic.cpp" />
+    <ClCompile Include="BulletFalcon.cpp" />
+    <ClCompile Include="BulletFire.cpp" />
+    <ClCompile Include="BulletLaser.cpp" />
+    <ClCompile Include="BulletMachine.cpp" />
+    <ClCompile Include="BulletManager.cpp" />
+    <ClCompile Include="BulletSpread.cpp" />
+    <ClCompile Include="Canon.cpp" />
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="CrossHair.cpp" />
+    <ClCompile Include="CrystalOrb.cpp" />
+    <ClCompile Include="DestroyableObject.cpp" />
+    <ClCompile Include="DiveShooter.cpp" />
+    <ClCompile Include="Droid.cpp" />
+    <ClCompile Include="Effect.cpp" />
+    <ClCompile Include="EffectManager.cpp" />
+    <ClCompile Include="ExplodeBridge.cpp" />
+    <ClCompile Include="ExplodeFire.cpp" />
+    <ClCompile Include="FallingStone.cpp" />
+    <ClCompile Include="Fire.cpp" />
+    <ClCompile Include="FireCircle.cpp" />
+    <ClCompile Include="FloatingBulletBag.cpp" />
+    <ClCompile Include="FreeSound.cpp" />
+    <ClCompile Include="FreeText.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="HiddenSniper.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MetalOrb.cpp" />
+    <ClCompile Include="MiniDroid.cpp" />
+    <ClCompile Include="Mobs.cpp" />
+    <ClCompile Include="Mouth.cpp" />
+    <ClCompile Include="MoveObject.cpp" />
+    <ClCompile Include="FloatingRock.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Pretties.cpp" />
+    <ClCompile Include="QuadTree.cpp" />
+    <ClCompile Include="RedBoom.cpp" />
+    <ClCompile Include="RedSpreadBoom.cpp" />
+    <ClCompile Include="RunningMan.cpp" />
+    <ClCompile Include="ScoreManager.cpp" />
+    <ClCompile Include="Selector.cpp" />
+    <ClCompile Include="ShootObject.cpp" />
+    <ClCompile Include="Sniper.cpp" />
+    <ClCompile Include="StandCanon.cpp" />
+    <ClCompile Include="StandShooter.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="Tank.cpp" />
+    <ClCompile Include="TankGun.cpp" />
+    <ClCompile Include="Tentacle.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Timer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedPretties.h" />
+    <ClInclude Include="AutoAimingObject.h" />
+    <ClInclude Include="BlueBoom.h" />
+    <ClInclude Include="BlueBoomGenerator.h" />
+    <ClInclude Include="BoomingCanon.h" />
+    <ClInclude Include="Boss.h" />
+    <ClInclude Include="Bullet.h" />
+    <ClInclude Include="BulletBag.h" />
+    <ClInclude Include="BulletBasic.h" />
+    <ClInclude Include="BulletFalcon.h" />
+    <ClInclude Include="BulletFire.h" />
+    <ClInclude Include="BulletLaser.h" />
+    <ClInclude Include="BulletMachine.h" />
+    <ClInclude Include="BulletManager.h" />
+    <ClInclude Include="BulletSpread.h" />
+    <ClInclude Include="Canon.h" />
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Collision.h" />
+    <ClInclude Include="CrossHair.h" />
+    <ClInclude Include="CrystalOrb.h" />
+    <ClInclude Include="DestroyableObject.h" />
+    <ClInclude Include="DiveShooter.h" />
+    <ClInclude Include="Droid.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="EffectManager.h" />
+    <ClInclude Include="ExplodeBridge.h" />
+    <ClInclude Include="ExplodeFire.h" />
+    <ClInclude Include="FallingStone.h" />
+    <ClInclude Include="Fire.h" />
+    <ClInclude Include="FireCircle.h" />
+    <ClInclude Include="FloatingBulletBag.h" />
+    <ClInclude Include="FreeSound.h" />
+    <ClInclude Include="FreeText.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameDefaultConstant.h" />
+    <ClInclude Include="GameDefaultStructure.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="HiddenSniper.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="MetalOrb.h" />
+    <ClInclude Include="MiniDroid.h" />
+    <ClInclude Include="Mobs.h" />
+    <ClInclude Include="Mouth.h" />
+    <ClInclude Include="MoveObject.h" />
+    <ClInclude Include="FloatingRock.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Pretties.h" />
+    <ClInclude Include="QuadTree.h" />
+    <ClInclude Include="RedBoom.h" />
+    <ClInclude Include="RedSpreadBoom.h" />
+    <ClInclude Include="RunningMan.h" />
+    <ClInclude Include="ScoreManager.h" />
+    <ClInclude Include="Selector.h" />
+    <ClInclude Include="ShootObject.h" />
+    <ClInclude Include="Sniper.h" />
+    <ClInclude Include="StandCanon.h" />
+    <ClInclude Include="StandShooter.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Tank.h" />
+    <ClInclude Include="TankGun.h" />
+    <ClInclude Include="Tentacle.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Timer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DX9Framework\DX9Framework.vcxproj">
+      <Project>{2fe075b9-b7ab-4461-91bc-fc51d7125203}</Project>
+    </ProjectReference>
+    <ProjectReference Include="..\GraphicAlgorimths2D\GraphicAlgorithms2D.vcxproj">
+      <Project>{8b984681-50a9-469b-94a5-7934d537b5f0}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

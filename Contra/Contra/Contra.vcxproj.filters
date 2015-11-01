@@ -1,0 +1,457 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Game Objects">
+      <UniqueIdentifier>{a3099590-45e1-4268-a451-575795db6992}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Base">
+      <UniqueIdentifier>{fa8d9201-8996-44bc-8ee8-493af3809e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered">
+      <UniqueIdentifier>{db44f29a-7d51-4bd0-afae-0743fbea1722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bullets">
+      <UniqueIdentifier>{d9a470de-a220-4c3d-8b7a-72f5e48bb893}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Mobs">
+      <UniqueIdentifier>{206c56f7-b567-42cb-ba8f-0b1d4df4df52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Player">
+      <UniqueIdentifier>{f6778adf-10ce-4860-bddc-a7a1d6e0e27e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{45180664-3886-4302-9f6b-487624a5c237}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Map Item">
+      <UniqueIdentifier>{a3c4b093-93f8-41ae-a230-8d1121fff2f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bosses">
+      <UniqueIdentifier>{017b3abf-1155-4157-9992-36e98b89db5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bosses\1st Boss">
+      <UniqueIdentifier>{2be7dab4-7e6b-483a-a54c-e5fc1b9937fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bullets\Enemy Bullets">
+      <UniqueIdentifier>{d7fc5c7d-784c-4d6a-aca5-0019474a7365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bullets\Player Bullets">
+      <UniqueIdentifier>{e20e837b-9a7a-4e9b-a1e8-dc5405e4d461}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bosses\2nd Boss">
+      <UniqueIdentifier>{71e58eb2-a21f-442e-9fe8-04e30751b2cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Game State">
+      <UniqueIdentifier>{58c96814-2031-42de-8cc6-3dee51427d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game Objects\Delivered\Bosses\3rd Boss">
+      <UniqueIdentifier>{379059c1-d952-40c4-9ddd-4588d09f8492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Algorithms">
+      <UniqueIdentifier>{8f5de611-a038-4ff2-ae2e-8bcab40b0154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager\Effect">
+      <UniqueIdentifier>{6a06c2e8-2b88-4157-a36c-a99f4656828f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBasic.cpp">
+      <Filter>Source Files\Game Objects\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="State.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Source Files\Manager\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>Source Files\Manager\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossHair.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\1st Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BoomingCanon.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\1st Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MetalOrb.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="CrystalOrb.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Tentacle.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouth.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDroid.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\3rd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeFire.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\3rd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="Droid.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\3rd Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootObject.cpp">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoAimingObject.cpp">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="DestroyableObject.cpp">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Mobs.cpp">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveObject.cpp">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="FireCircle.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Enemy Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="RedBoom.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Enemy Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="RedSpreadBoom.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Enemy Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletSpread.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBasic.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFire.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletLaser.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletMachine.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimatedPretties.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletBag.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletFalcon.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ExplodeBridge.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingBulletBag.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="FloatingRock.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Pretties.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBoom.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="BlueBoomGenerator.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Canon.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="DiveShooter.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="FallingStone.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Fire.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="HiddenSniper.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="RunningMan.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Sniper.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="StandCanon.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="StandShooter.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="TankGun.cpp">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>Source Files\Manager\Game State</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>Source Files\Manager\Game State</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadTree.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeText.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeSound.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BulletManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GameDefaultConstant.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootObject.h">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveObject.h">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Mobs.h">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="RunningMan.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Canon.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="StandCanon.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Source Files\Game Objects\Delivered\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDefaultStructure.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Collision.h">
+      <Filter>Source Files\Manager\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletManager.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="State.h">
+      <Filter>Source Files\Game Objects\Delivered\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadTree.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimatedPretties.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeBridge.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Source Files\Manager\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>Source Files\Manager\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="Sniper.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Pretties.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoAimingObject.h">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="HiddenSniper.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="DestroyableObject.h">
+      <Filter>Source Files\Game Objects\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFalcon.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBag.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingBulletBag.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses</Filter>
+    </ClInclude>
+    <ClInclude Include="BoomingCanon.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\1st Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="RedBoom.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Enemy Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletBasic.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletFire.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletLaser.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletSpread.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="BulletMachine.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Player Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="FallingStone.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Fire.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="FloatingRock.h">
+      <Filter>Source Files\Game Objects\Delivered\Map Item</Filter>
+    </ClInclude>
+    <ClInclude Include="RedSpreadBoom.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Enemy Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="DiveShooter.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="MetalOrb.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Source Files\Manager\Game State</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Source Files\Manager\Game State</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeText.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeSound.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="CrystalOrb.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="FireCircle.h">
+      <Filter>Source Files\Game Objects\Delivered\Bullets\Enemy Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Tentacle.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouth.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\2nd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossHair.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\1st Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="StandShooter.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="TankGun.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDroid.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\3rd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="ExplodeFire.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\3rd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="Droid.h">
+      <Filter>Source Files\Game Objects\Delivered\Bosses\3rd Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBoom.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="BlueBoomGenerator.h">
+      <Filter>Source Files\Game Objects\Delivered\Mobs</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreManager.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files\Manager</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BulletBasic.h">
+      <Filter>Source Files\Game Objects\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Source Files\Game Objects\Bullet</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
